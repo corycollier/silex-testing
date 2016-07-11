@@ -1,0 +1,14 @@
+{
+    "name": "cory/silex-testing",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cory Collier",
+            "email": "cory.collier@ahss.org"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "silex/silex": "^2.0"
+    }
+}
