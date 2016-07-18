@@ -1,0 +1,21 @@
+{
+    "name": "cory/silex-testing",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cory Collier",
+            "email": "cory.collier@ahss.org"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "silex/silex": "^2.0",
+        "symfony/yaml": "^3.1"
+    },
+    "autoload" : {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
