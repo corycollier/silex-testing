@@ -1,0 +1,4 @@
+resources:
+  /image: ImageController
+  /image/{id} : ImageController
+  /: IndexController

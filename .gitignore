@@ -1,19 +1,13 @@
-# Assets and user uploads
-web/bundles/
-web/uploads/
-
-# Assets managed by Bower
-web/assets/vendor/
-
-# Build data
-build/*
-!build/phpunit.xml
-
-# Composer PHAR, Lock, and vendor directories
-composer.phar
-composer.lock 
-vendor/*
-
 # Files
 .DS_Store
 cache.properties
+*.lock
+*.orig
+
+
+# Folders
+vendor/
+build/
+!build/phpcs.xml
+!build/phpmd.xml
+!build/phpunit.xml
