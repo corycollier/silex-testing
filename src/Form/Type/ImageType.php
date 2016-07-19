@@ -10,12 +10,12 @@ use Symfony\Component\Validator\Constraints as Assert;
 
 class ImageType
 {
-	public function buildForm(FormBuilderInterface $builder, array $options)
-	{
-		$builder
-			->add('name', 'text', [
-				'constraints' => new Assert\NotBlank,
-			])
-			->add('save', 'submit');
-	}
+    public function buildForm(FormBuilderInterface $builder, array $options)
+    {
+        $builder
+            ->add('name', 'text', [
+                'constraints' => new Assert\NotBlank,
+            ])
+            ->add('save', 'submit');
+    }
 }
